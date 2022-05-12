@@ -29,18 +29,18 @@ a{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: rgba(255, 0, 0, 0.527);
     transition: 0.3s all;
 }
 
 #inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+    border: 2px solid rgba(255, 0, 0, 0.527);
     padding: 10px;
     border-radius: 15px;
 }
 
 #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
+    background-color: rgba(255, 0, 0, 0.527);
     color: white;
 }
 
@@ -61,7 +61,7 @@ h2{
 }
 
 span{
-    color: rgb(132, 14, 201);
+    color: rgba(255, 0, 0, 0.527);
 }
 
 p{
@@ -72,6 +72,8 @@ p{
 
 img{
     width: 600px;
+    position: relative;
+    left: 80px;
 }
 
 form{
@@ -83,7 +85,7 @@ form{
 form [type="submit"]{
     height: 50px;
     width: 50%;
-    background-color: rgb(132, 14, 201);
+    background-color: rgba(255, 0, 0, 0.527);
     color: white;
     font-weight: bold;
 }
